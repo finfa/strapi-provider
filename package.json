@@ -1,5 +1,5 @@
 {
-  "name": "@finfa/strapi-provider-email-sparkpost",
+  "name": "@checkout-charlie/strapi-provider-email-sparkpost",
   "version": "1.0.0",
   "description": "sparkpost provider for strapi email",
   "keywords": [
