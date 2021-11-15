@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-sparkpost",
+  "name": "@finfa/strapi-provider-email-sparkpost",
   "version": "1.0.0",
   "description": "sparkpost provider for strapi email",
   "keywords": [
@@ -7,28 +7,34 @@
     "strapi"
   ],
   "dependencies": {
-    "lodash":  "~4.16",
-    "sparkpost":  "^2.1.4"
+    "lodash": "~4.16",
+    "sparkpost": "^2.1.4"
   },
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "main": "./lib",
   "strapi": {
     "isProvider": true
   },
-  "author": {
-    "email": "federico.infanti@checkout-charlie.com",
-    "name": "Federico Infanti"
-  },
+  "author": "Federico Infanti <federico.infanti@checkout-charlie.com>",
   "maintainers": [
-    {
-      "email": "federico.infanti@checkout-charlie.com",
-      "name": "Federico Infanti"
-    }
+    "Federico Infanti <federico.infanti@checkout-charlie.com>"
   ],
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finfa/strapi-provider-email-sparkpost.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finfa/strapi-provider-email-sparkpost/issues"
+  },
+  "homepage": "https://github.com/finfa/strapi-provider-email-sparkpost#readme"
 }
