@@ -1,0 +1,34 @@
+{
+  "name": "strapi-provider-email-sparkpost",
+  "version": "1.0.0",
+  "description": "sparkpost provider for strapi email",
+  "keywords": [
+    "email",
+    "strapi"
+  ],
+  "dependencies": {
+    "lodash":  "~4.16",
+    "sparkpost":  "^2.1.4"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "federico.infanti@checkout-charlie.com",
+    "name": "Federico Infanti"
+  },
+  "maintainers": [
+    {
+      "email": "federico.infanti@checkout-charlie.com",
+      "name": "Federico Infanti"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  }
+}
