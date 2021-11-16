@@ -30,11 +30,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finfa/strapi-provider-email-sparkpost.git"
+    "url": "git+https://github.com/checkout-charlie/strapi-provider-email-sparkpost.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/finfa/strapi-provider-email-sparkpost/issues"
+    "url": "https://github.com/checkout-charlie/strapi-provider-email-sparkpost/issues"
   },
-  "homepage": "https://github.com/finfa/strapi-provider-email-sparkpost#readme"
+  "homepage": "https://github.com/checkout-charlie/strapi-provider-email-sparkpost#readme"
 }
